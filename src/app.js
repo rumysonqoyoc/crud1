@@ -2,7 +2,7 @@ import express from 'express';
 import cors from 'cors';
 
 import {ruta} from './rutas/crud1.js';
-import {PORT} from './config.js';
+
 const app=express();
 
 app.use(cors());
